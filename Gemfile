@@ -39,6 +39,7 @@ gem 'bootstrap-sass-rails'
 #esto este 
 gem 'font-awesome-rails'
 
+#este es otro comentario
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

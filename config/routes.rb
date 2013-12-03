@@ -1,5 +1,6 @@
 Estudio::Application.routes.draw do
   devise_for :usuarios
+  devise_for :usuarios, path_names: {sign_in: "login", sign_out: "logout", sign_up: "registrarse"}
   get "bienvenido/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
